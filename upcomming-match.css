@@ -4,6 +4,7 @@
 * {
     padding: 0;
     margin: 0;
+    transition: 0.3s ease-out;
 }
 
 /*----------------------------
@@ -32,7 +33,7 @@ header {
 }
 
 .header-section {
-    background: #241313;
+    background: #16151b;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -40,11 +41,6 @@ header {
     height: 646px;
     margin-top: 50px;
     margin-bottom: 130px;
-}
-
-.header-section:hover {
-    opacity: 0.9;
-    transition: .2s;
 }
 
 .left-header {
@@ -72,7 +68,7 @@ header {
 }
 
 .left-header .watch-live {
-    background-color: orangered;
+    background-color: rgb(211, 45, 45);
     border: 0;
     font-weight: 400;
     font-size: 20px;
@@ -221,7 +217,7 @@ aside a:hover {
 
 .all-footer {
     width: 100%;
-    background-color: #100b1a;
+    background: #16151b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -271,6 +267,14 @@ aside a:hover {
     border-radius: 50%;
     padding: 5px;
 }
+
+.social a i:hover {
+    border: 2px solid rgba(233, 137, 137, 0.7);
+    border-radius: 50%;
+    background-color: #B9B9B9;
+    color: #161616;
+}
+
 
 .social a:last-child {
     margin-right: 0;
