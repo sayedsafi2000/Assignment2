@@ -264,7 +264,7 @@ aside a:hover {
 }
 
 
-.social a {
+.social a i {
     min-width: 15px;
     margin-right: 10px;
     border: 2px solid rgba(233, 137, 137, 0.7);
